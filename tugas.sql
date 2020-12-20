@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 20 Des 2020 pada 11.02
+-- Waktu pembuatan: 20 Des 2020 pada 12.36
 -- Versi server: 10.4.10-MariaDB
 -- Versi PHP: 7.3.12
 
@@ -71,6 +71,13 @@ CREATE TABLE `katakunci` (
   `id` int(5) NOT NULL,
   `kata` varchar(26) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `katakunci`
+--
+
+INSERT INTO `katakunci` (`id`, `kata`) VALUES
+(0, 'Helm');
 
 -- --------------------------------------------------------
 
